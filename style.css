@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: #020202;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    margin: 0 0 5px 0;
+    font-size: 1.6rem;
+    color: #ff3333;
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px rgba(255,0,0,0.6);
+}
+
+#stats {
+    font-size: 1rem;
+    background: rgba(0,0,0,0.85);
+    padding: 6px 20px;
+    border: 1px solid #444;
+    border-radius: 4px;
+}
+
+canvas {
+    background: #000;
+    box-shadow: 0 0 50px rgba(0,0,0,0.95);
+    border: 2px solid #333;
+}
+
+#instructions {
+    position: absolute;
+    bottom: 15px;
+    font-size: 0.8rem;
+    color: #888;
+    text-align: center;
+    line-height: 1.4;
+}
